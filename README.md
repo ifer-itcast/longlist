@@ -95,3 +95,7 @@
 4. 设置 List 组件的 scrollToAlignment 配置项为 start，保证被点击行出现在页面顶部
 
 5. 对于点击索引无法正确定位的问题，调用 List 组件的 measureAllRows 方法，提前计算高度来解决
+
+## Bug
+
+小数问题引起的（参考电梯导航 Bug）
