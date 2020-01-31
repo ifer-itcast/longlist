@@ -44,6 +44,15 @@
 }
 ```
 
+> ```
+> // 方法补充...
+> componentDidMount() {
+>     this.setState({
+>         wHeight: window.innerHeight - 45
+>     });
+> }
+> ```
+
 ## 使用 List 组件渲染列表
 
 1. 将获取到的 cityList 和 cityIndex 添加为组件的状态
