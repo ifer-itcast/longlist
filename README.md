@@ -14,7 +14,7 @@
 
 ## 让 List 组件占满屏幕
 
-1. 打开 AutoSizer 高阶组件的[文档](https://github.com/bvaughn/react-virtualized/blob/master/docs/AutoSizer.md#autosizer)
+1. 打开 AutoSizer 高阶组件的 [文档](https://github.com/bvaughn/react-virtualized/blob/master/docs/AutoSizer.md#autosizer)
 
 2. 导入 AutoSizer 组件
 
@@ -39,7 +39,7 @@
     padding-top: 45px;
 }
 .navbar{
-    /* margin 负值会影响底部的元素 */
+    /* margin 负值会影响底部的元素，“往上挤” */
     margin-top: -45px;
 }
 ```
